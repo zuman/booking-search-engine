@@ -3,6 +3,8 @@
 @Author:	Syed Zuman Husain
 @email:		syed.zuman.007@gmail.com
 
+<a href="http://izuman.cu.cc/projects/Booking.com/" target="_blank">Live project link</a>
+
 This project appeared to me on HackerRank via an open-ended Hackathon.
 
 The problem statement was to create a search engine that would take people's passions as arguments and suggest them one or more places to visit for vacations which would best match their passions.
