@@ -1,0 +1,12 @@
+<div class="right">
+	<br/><a href="#/">Search</a>
+	<br/><a href="" ng-click="clear()">Clear Console</a>
+</div>
+<form name="insertForm" ng-submit="insertData()" method="post" id="insertForm">
+	<br/><input type="text" name="city" ng-model="insert.city" placeholder="Enter City..." required/>
+	<br/><input type="text" name="passion" ng-model="insert.passion" placeholder="Enter Passion..." required/>
+	<br/><input type="number" name="endorsement" ng-model="insert.endorsement" placeholder="Enter Endorsement Count..." required/>
+	<br/><input type="submit" value="Insert/Update"/>
+		 <input type="button" ng-click="reset()" value="Reset"/>
+	<br/><input type="button" ng-click="getCount()" value="Get Endorsements"/>
+</form>

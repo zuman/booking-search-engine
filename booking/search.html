@@ -1,0 +1,19 @@
+<div class="right">
+	<br/><a href="#insert">Insert data</a>
+	<br/><a href="" ng-click="clear()">Clear Console</a>
+</div>
+<form name="searchForm" ng-submit="searchData()" method="post" id="searchForm" autocomplete="off">
+	<br/><input type="search" id="searchBox" name="search" ng-model="search" placeholder="Enter your passions separated by spaces..." required/>
+</form>
+<div>Results:</div>
+<ul ng-repeat="(city,data) in result" ng-filter="$index!=0">
+	<div  ng-if="$index==0">
+		<p>We recomment <result>{{city}}</result> for
+		<passion ng-repeat="(passion,count) in data">{{passion=='score'?'.':(passion+', ')}}</passion>
+		<br>More suggestions:</p>
+	</div>
+	<li  ng-if="$index!=0">
+		<result>{{city}}</result> for 
+		<passion ng-repeat="(passion,count) in data">{{passion=='score'?'.':(passion+', ')}}</passion>
+	</li>
+</ul>

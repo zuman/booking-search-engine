@@ -1,0 +1,20 @@
+.right{
+	position: absolute;
+    right: 40px;
+}
+#main{
+	overflow-Y:scroll;
+	height:50%;
+}
+#console {
+	overflow-Y:scroll;
+	height:50%;
+	background-color: cyan;
+}
+#searchBox{
+	width: 50%;
+	min-width:200px;
+}
+result{
+	font-weight: bold;
+}
