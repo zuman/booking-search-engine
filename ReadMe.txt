@@ -1,5 +1,19 @@
-//	@Author:	Syed Zuman Husain
-//	@email:		syed.zuman.007@gmail.com
+#Booking.com Search Engine project
+
+@Author:	Syed Zuman Husain
+@email:		syed.zuman.007@gmail.com
+
+This project appeared to me on HackerRank via an open-ended Hackathon.
+
+The problem statement was to create a search engine that would take people's passions as arguments and suggest them one or more places to visit for vacations which would best match their passions.
+
+For eg. If someone enters 'Food' as their passion, a list of cities should pop-up where food is endorsed by the travellers who have visited the place before.
+
+The database contains a singlr table with only three columns: City, Passion, Endorse_count. Where Endorement_count is an integer denoting the number of travellers who have given a positive response for that respected passion in that respected city.
+
+You can add or edit the existing data in the database via "Edit Data" on top right corner of the search engine
+
+Try entering food, walk, beach in the search engine.
 
 Front-end Technologies used:
 	1. HTML/CSS
